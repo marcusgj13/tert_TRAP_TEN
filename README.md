@@ -16,6 +16,6 @@ any secondary structure prediction or disorder prediction performed on isolated 
 
 # Running scripts
 
-findTEN.py and findTRAP.py require no inputs. Other scripts take either a fasta file as an input, 
+findTEN.py and findTRAP.py require no inputs. Other scripts take either a fasta file as an input,   
 a clustal results file or a text file that has a list of output files to be analysed (.horiz files  
 for psipred and .diso files for disopred).
