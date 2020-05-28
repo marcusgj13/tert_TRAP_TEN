@@ -4,9 +4,9 @@ This repository contains python scripts used to isolate sequences of the TEN and
 full-length telomerase reverse transcriptase (TERT) sequences. All scripts were intially implemented  
 in python 3.5 but should be backwards compatible with python2.7.
 
-Author: Marcus Gallagher-Jones
-Institution: UCLA Department of chemistry and biochemistry
-Email: marcusgj13@gmail.com
+Author: Marcus Gallagher-Jones  
+Institution: UCLA Department of chemistry and biochemistry  
+Email: marcusgj13@gmail.com  
 
 # Explanation  
   
