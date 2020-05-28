@@ -3,13 +3,13 @@ import matplotlib.pyplot as pl
 import numpy as np
 import fnmatch
 
-# Script for locating the position of CP motif
-# in a list of tert sequences.
+''' Script for locating the position of CP motif
+   in a list of tert sequences.'''
 
 # First load the list of motifs to search for
 CPMotifs = []
 
-for line in open('new_CPMotifs.txt', 'r'):
+for line in open('./INPUTS/new_CPMotifs.txt', 'r'):
     if line[0] != '>':
         CPMotifs.append(line.strip())
 

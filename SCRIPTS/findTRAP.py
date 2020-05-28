@@ -2,14 +2,13 @@ from collections import defaultdict
 import matplotlib.pyplot as pl
 import numpy as np
 import fnmatch
-
-# Script for locating the position in of B prime
-# in a list of tert sequences.
+''' Script for locating the position in of B prime
+ in a list of tert sequences'''
 
 # First load the list of motifs to search for
 BprimeMotifs = []
 
-for line in open('BprimeMotifs.txt', 'r'):
+for line in open('./INPUTS/BprimeMotifs.txt', 'r'):
     if line[0] != '>':
         BprimeMotifs.append(line.strip())
 
@@ -74,7 +73,7 @@ IFDSeqs = defaultdict()
 seqLens = []
 IFDLens = []
 windowSize = 6
-for line in open('AMotifs.txt', 'r'):
+for line in open('./INPUTS/AMotifs.txt', 'r'):
     if line[0] != '>':
         AMotifs.append(line.strip())
 
