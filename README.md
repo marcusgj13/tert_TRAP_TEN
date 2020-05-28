@@ -1,4 +1,4 @@
-# tert TRAP/TEN analysis
+# TERT TRAP/TEN domain sequence analysis
 
 This repository contains python scripts used to isolate sequences of the TEN and TRAP domains from  
 full-length telomerase reverse transcriptase (TERT) sequences. All scripts were intially implemented  
